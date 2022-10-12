@@ -34,7 +34,7 @@ void Graph::drawGraph(QString formula, double xBegin, double xEnd, double yBegin
     if (controller->formulaIsGood()) {
     setWindowTitle(formula);
 
-    h = (xEnd - xBegin)/ 1000;
+    h = (xEnd - xBegin)/ 100000;
 
     ui->widget->xAxis->setRange(xBegin, xEnd);
     ui->widget->yAxis->setRange(yBegin, yEnd);

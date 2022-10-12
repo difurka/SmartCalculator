@@ -57,9 +57,6 @@ MainWindow::~MainWindow() {
     delete ui;
 }
 
-void MainWindow::SetController(s21::Controller *controller_new) {
-  controller = controller_new;
-}
 QLineEdit* MainWindow::getEdit() {
     QLineEdit* editWithFocus = ui->lineFormula;
     if (ui->lineX->hasFocus())

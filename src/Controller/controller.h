@@ -11,10 +11,6 @@ class Controller {
         model = new Model();
         credit = new Credit();
     }
-    Controller(Model* model_new) : model(model_new) {
-        credit = new Credit();
-    }
-    
     ~Controller() {
         delete model;
         delete credit;

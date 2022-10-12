@@ -18,7 +18,7 @@ class MainWindow : public QMainWindow {
  public:
     explicit MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
-    void SetController(s21::Controller *controller_new);
+
     QLineEdit* getEdit();
 
 
